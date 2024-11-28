@@ -1,21 +1,26 @@
 @import "../../_globalColor";
 
 .dev-icons {
+  display: grid; /* Grid layout enable kare */
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 10px; /* Columns aur rows ke beech spacing */
   padding-left: 0;
   list-style: none;
   font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin: 0 auto; /* Center align kare container ko */
   text-align: center;
+  // font-size: large;
+  font-weight : 900;
 }
 
 .software-skill-inline {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  font-size: larger;
+  margin: 0; /* Individual items ke margins remove kare */
 }
 
+
 .software-skill-inline > i {
+  font-size: larger;
   color: $subTitle;
 }
 

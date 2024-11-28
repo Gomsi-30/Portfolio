@@ -44,6 +44,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.certificate-image-div img {
+  width: 100%; /* Container ki width ko cover kare */
+  height: 100%; /* Container ki height ko cover kare */
+  object-fit: cover; /* Image proportions ko maintain karte hue container ko fill kare */
+}
+
 .achievement-cards-div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Shivani Devrani",
+  title: "Hi all, I'm Shivani",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Recent BCA graduate pursuing to become a UI/UX Designer, 🚀 currently enhancing skills in UI/UX design using tools like Figma. Passionate about creating intutive and visually appealing user interfaces, with a focus on mastering front-end development to deliver engaging digital experiences. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/12Q14gQFId4272eXClpI29EYpoGacJPyk/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Shivanidevrani",
+  linkedin: "https://www.linkedin.com/in/shivani-devrani-629a66222/",
+  gmail: "shivanidevrani5@gmail.com",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,19 +46,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY UI-UX DESIGNER WHO WANTS TO EXPLORE DIVERSE TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡  Designing user-centric interfaces that blend creativity with functionality"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Prototyping and building seamless Progressive Web Apps (PWA) with engaging user flows"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Collaborating with tools like Figma and integrating assets into modern frameworks"
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -72,50 +66,39 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Wireframe",
+      // fontAwesomeClassname: "fab fa-solid fa-network-wired"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Prototype",
+      // fontAwesomeClassname: "fab fa-swift"
+    },
+    
+    {
+      skillName: "User Interface (UI) Design",
+      // fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "User Experience (UX) Research",
+      // fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +109,31 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Gyan Bharti Public School",
+      logo: require("./assets/images/gyan.jpg"),
+      // subHeader: "Master of Science in Computer Science",
+      duration: "March 2018 - May 2019",
+      desc: "Percentage - 81%",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "The Daffodils Public School",
+      logo: require("./assets/images/daff.jpg"),
+      // subHeader: "Bachelor of Science in Computer Science",
+      duration: "January 2020 - May 2021",
+      desc: "Percentage - 84%",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "Institute of Hospitality, Management and Sciences",
+      logo: require("./assets/images/ihms.png"),
+      subHeader: "Bachelor of Computer Application",
+      duration: "August 2021 - June 2024",
+      desc: "CGPA - 6.9",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -153,12 +144,12 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "User Interface", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Prototype/Wireframe",
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
@@ -171,7 +162,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -206,35 +197,57 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SKILL-BUILDING PROJECTS: MY JOURNEY OF CONTINUOUS LEARNING AND GROWTH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/chat.avif"),
+      projectName: "Chat Website Design",
+      projectDesc: "Designed a modern chat application in Figma with a focus on intuitive navigation and user-friendly interface. Included key sections such as Chat section, Friends section, Notification section, Groups section.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.figma.com/design/ZqkOEfOvf4xe0Ntk3W6Rg4/Chat-App?node-id=0-1&t=ErEGcSMtImCFN3eh-1"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/e1.png"),
+      projectName: "E-commerce Design",
+      projectDesc: "I designed an e-commerce website using Figma, focusing on a clean and modern layout. The design includes a user-friendly interface, with clear navigation, product listings, and a streamlined checkout process.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.figma.com/design/DiofrKfT6WwkYNdo0K053l/E-Commerce?node-id=0-1&node-type=canvas"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/mba.jpg"),
+      projectName: "Mba Chaiwala Clone",
+      projectDesc: "Developed a full-featured clone of the Mbachaiwala website using React.js, with a focus on creating a seamless user experience. Integrated Framer Motion to enhance the interface with smooth animations, making the UI more dynamic and engaging.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://animated-website-react-js.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/fashion.png"),
+      projectName: "Fashion E-commerce",
+      projectDesc: "Designed an engaging fashion E-commerce website in Figma focused on providing a seamless user experience. Presented products in a smooth, visually appealing layout to enhance product visibility and engagement.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.figma.com/design/wFXq4XtWaV23wyTRC8WRZi/Fashion-Design-Ui?node-id=0-1&node-type=canvas"
         }
       ]
     }
@@ -246,59 +259,40 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Team Leader for LMS Project",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Successfully led a team of classmates in developing a comprehensive Learning Management System (LMS) as part of our BCA program.",
+      image: require("./assets/images/lms.webp"),
       imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+      // footerLink: [
+      //   {
+      //     name: "",
+      //     url: ""
+      //   },
+        
+      // ]
     },
+//     English Fluency (03/2022 - 06/2022)
+// Improved communication skills through English Fluency certification.
     {
-      title: "Google Assistant Action",
+      title: "English Fluency",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Certified in English fluency: improved language proficiency and communication skills. Boosted confidence in professional interactions. Enabled fluent and effective global communication",
+      image: require("./assets/images/english1.jpg"),
       imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+      // footerLink: [
+      //   {
+      //     name: "View Google Assistant Action",
+      //     url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+      //   }
+      // ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +318,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +337,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +350,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,16 +365,16 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a design or just want to say hi? My Inbox is open for all.",
+  number: "+91 6396258326",
+  email_address: "shivanidevrani5@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
