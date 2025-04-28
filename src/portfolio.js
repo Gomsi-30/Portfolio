@@ -26,7 +26,7 @@ const greeting = {
     "Recent BCA graduate pursuing to become a UI/UX Designer, 🚀 currently enhancing skills in UI/UX design using tools like Figma. Passionate about creating intutive and visually appealing user interfaces, with a focus on mastering front-end development to deliver engaging digital experiences. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/12Q14gQFId4272eXClpI29EYpoGacJPyk/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1a0D8Yh1Qqd0hw-H0RpJu3e0fzc3Z7vLQ/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -207,6 +207,17 @@ const bigProjects = {
   subtitle: "SKILL-BUILDING PROJECTS: MY JOURNEY OF CONTINUOUS LEARNING AND GROWTH",
   projects: [
     {
+      image: require("./assets/images/grocery.png"),
+      projectName: "Grocery app",
+      projectDesc: "I designed a visually dynamic grocery website using Figma, with a strong focus on clean aesthetics and rich animations throughout the interface.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.figma.com/design/7Jw9XYVfg2icjO7viiMXQG/Grocery-App?node-id=0-1&t=G3H5rAfdXEBwM0So-1"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/chat.avif"),
       projectName: "Chat Website Design",
       projectDesc: "Designed a modern chat application in Figma with a focus on intuitive navigation and user-friendly interface. Included key sections such as Chat section, Friends section, Notification section, Groups section.",
@@ -226,17 +237,6 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://www.figma.com/design/DiofrKfT6WwkYNdo0K053l/E-Commerce?node-id=0-1&node-type=canvas"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/mba.jpg"),
-      projectName: "Mba Chaiwala Clone",
-      projectDesc: "Developed a full-featured clone of the Mbachaiwala website using React.js, with a focus on creating a seamless user experience. Integrated Framer Motion to enhance the interface with smooth animations, making the UI more dynamic and engaging.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://animated-website-react-js.vercel.app/"
         }
       ]
     },
@@ -272,8 +272,8 @@ const achievementSection = {
       imageAlt: "Google Code-In Logo",
       // footerLink: [
       //   {
-      //     name: "",
-      //     url: ""
+      //    name: "View Google Assistant Action",
+      //     url: "https://drive.google.com/file/d/1EWypSSYsCm_3vahW68JBmh6x8q165O7K/view"
       //   },
         
       // ]
@@ -281,15 +281,15 @@ const achievementSection = {
 //     English Fluency (03/2022 - 06/2022)
 // Improved communication skills through English Fluency certification.
     {
-      title: "English Fluency",
+      title: "UI/UX-FIGMA",
       subtitle:
         "Certified in English fluency: improved language proficiency and communication skills. Boosted confidence in professional interactions. Enabled fluent and effective global communication",
-      image: require("./assets/images/english1.jpg"),
+      image: require("./assets/images/figma.png"),
       imageAlt: "Google Assistant Action Logo",
       // footerLink: [
       //   {
-      //     name: "View Google Assistant Action",
-      //     url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+      //     name: "View Certificate",
+      //     url: "https://drive.google.com/file/d/1EWypSSYsCm_3vahW68JBmh6x8q165O7K/view"
       //   }
       // ]
     },
